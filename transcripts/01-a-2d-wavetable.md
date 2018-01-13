@@ -18,7 +18,7 @@ We start our experiment by loading in `[jit.expr]`, which allows us to, well, co
 
 However, since a matrix is two-dimensional, we can also define two-dimensional expressions. For example, we can use the signed normalize (`snorm`) expression to calculate a bivariate cosine or sine function, which depends on the x and y coordinates of the matrix.
 
-Now off to `[jit.peek~]`. It takes the name of the lookup matrix, an argument specifying the dimension count, and a third determining the plane to take the values from. The number of inlets generated depends on the second argument, so here we have one for the x, and one for the y axis. We add to `[phasor~]`s, which scan the matrix in x and y direction, accordingly.
+Now off to `[jit.peek~]`. It takes the name of the lookup matrix, an argument specifying the dimension count, and a third determining the plane to take the values from. The number of inlets generated depends on the second argument, so here we have one for the x, and one for the y axis. We add two `[phasor~]`s, which scan the matrix in x and y direction, accordingly.
 
 If we use the first expression, we get a plain sine wave regardless of the frequency of the second phasor. Why is that? Well, as I said, the same sinusoid is applied to every row of the matrix, so the y coordinate - the second phasor - won't make any difference.
 
