@@ -61,7 +61,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
 					"patching_rect" : [ 459.0, 137.0, 56.0, 22.0 ],
-					"presentation_rect" : [ 439.0, 159.0, 0.0, 0.0 ],
 					"sig" : 0.0,
 					"style" : ""
 				}
@@ -75,7 +74,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 361.0, 58.0, 39.0, 22.0 ],
-					"presentation_rect" : [ 362.0, 58.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "*~ 16"
 				}
@@ -144,7 +142,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 88.0, 107.0, 148.0, 22.0 ],
+					"patching_rect" : [ 85.0, 88.0, 148.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.matrix seq 2 char 16 16"
 				}
@@ -183,8 +181,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 321.0, 278.0, 91.0, 96.0 ],
-					"presentation_rect" : [ 216.0, 163.0, 0.0, 0.0 ]
+					"patching_rect" : [ 195.0, 177.0, 52.0, 59.0 ]
 				}
 
 			}
@@ -195,7 +192,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 115.0, 278.0, 91.0, 96.0 ]
+					"patching_rect" : [ 85.0, 177.0, 52.0, 59.0 ]
 				}
 
 			}
@@ -206,7 +203,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_matrix", "jit_matrix", "" ],
-					"patching_rect" : [ 85.0, 142.0, 71.0, 22.0 ],
+					"patching_rect" : [ 85.0, 119.0, 71.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.unpack 2"
 				}
@@ -219,7 +216,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 85.0, 36.0, 24.0, 24.0 ],
+					"patching_rect" : [ 85.0, 25.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -231,7 +228,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 85.0, 70.0, 121.0, 22.0 ],
+					"patching_rect" : [ 85.0, 58.0, 121.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.noise 2 char 16 16"
 				}
