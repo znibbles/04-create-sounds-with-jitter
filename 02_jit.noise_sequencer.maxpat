@@ -113,9 +113,9 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 212.0, 265.5, 126.0, 22.0 ],
+									"patching_rect" : [ 212.0, 265.5, 112.0, 22.0 ],
 									"style" : "",
-									"text" : "scale~ 0. 1. 0. 0.2 0.8"
+									"text" : "scale~ 0. 1. 0.2 0.8"
 								}
 
 							}
@@ -1235,7 +1235,7 @@
 					"maxclass" : "scope~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 117.5, 249.0, 50.0, 52.0 ],
+					"patching_rect" : [ 114.0, 279.0, 50.0, 52.0 ],
 					"style" : ""
 				}
 
@@ -1390,15 +1390,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
-					"order" : 1,
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-49", 0 ],
-					"order" : 0,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -1434,6 +1425,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"order" : 1,
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-49", 0 ],
+					"order" : 0,
 					"source" : [ "obj-22", 0 ]
 				}
 
