@@ -43,7 +43,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 17.0, 279.0, 42.0, 22.0 ],
+					"patching_rect" : [ 25.0, 170.0, 42.0, 22.0 ],
 					"style" : "",
 					"text" : "*~ 0.2"
 				}
@@ -56,7 +56,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 17.0, 236.0, 97.0, 22.0 ],
+					"patching_rect" : [ 25.0, 127.0, 97.0, 22.0 ],
 					"style" : "",
 					"text" : "lores~ 200. 0.75"
 				}
@@ -398,7 +398,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 114.0, 146.0, 69.0, 22.0 ],
+					"patching_rect" : [ 122.0, 37.0, 69.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -748,7 +748,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 17.0, 146.0, 72.0, 22.0 ],
+					"patching_rect" : [ 25.0, 37.0, 72.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1213,7 +1213,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 17.0, 185.5, 56.0, 22.0 ],
+					"patching_rect" : [ 25.0, 76.5, 56.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1235,7 +1235,7 @@
 					"maxclass" : "scope~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 114.0, 279.0, 50.0, 52.0 ],
+					"patching_rect" : [ 122.0, 170.0, 50.0, 52.0 ],
 					"style" : ""
 				}
 
@@ -1365,7 +1365,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 343.0, 45.0, 45.0 ],
+					"patching_rect" : [ 25.0, 234.0, 45.0, 45.0 ],
 					"style" : ""
 				}
 
