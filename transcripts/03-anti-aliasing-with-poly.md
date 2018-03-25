@@ -74,3 +74,20 @@ uPXq9eg3nVNpcMP+pVCsSNa2qXsuebRmEqAfO.WcORr2bRGUBLD6PA.c0IPe
 xoIiuPHZpfgO5xOH34QW5gitvCmdYG59hNb7kbfy4uN8eArBDtHF
 -----------end_max5_patcher-----------
 ```
+
+#### Poly subpatch
+
+```
+----------begin_max5_patcher----------
+442.3ocyVtsiBBCDF9Z3onoWtgkPO.3tuJaLaJXiVWrPJEODi9ruzVHtGHQR
+fci2.Y9cx7Oecbrd12ClUdjWCAuBdC34c12yyJYD75h8f6XGyKX01zfR9gxr
+sv.2Go4G0V4xF8U.pWVrxIls84E8Z05SEbqbuhrYmPVv01Bi5DqX57MB452U
+7bsqwvjv3..J8EyKJMLJ.fwgQfk2pSq88EJxHdw227HXZPsUnCq37OtBNv1y
+0rrBN.ChFfxzQRI9tTRQ1WDxcvruRNI8oJtqLvZwZIq.Fz1Afky2YwSsi2HL
+Mb.3SlN7HjcrhhrXGmbG3Q2A9+Ivimso9CH2UaX0kpq.LMZH1oy1POAadt.8
+.xNAOH6j4Zt+.htP1NxGfY7z+c7t4sCcR5CFzCc4EZtt75ufYaMfEB4Ou.21
+EF8uePTW1nx6KX2kVfacxJdsVHYZQo7K4rvkyfG0i0mjQ3ioWPSzm3Q5yT4g
+NBeRlAeHivm3YvG7H7gNC9fFgOje4i6q4rpp8bUcWxVKZ2r2VpLgoA1PgzER
+rgJ9dQe9TqBS0tbpa2LaTtc4iKb+0E3txUbkrQX2A8MNew+S7WEh9C
+-----------end_max5_patcher-----------
+```
