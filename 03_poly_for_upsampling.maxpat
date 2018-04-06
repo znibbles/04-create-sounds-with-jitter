@@ -38,12 +38,25 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-12",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 133.0, 169.0, 78.0, 33.0 ],
+					"style" : "",
+					"text" : "anti-aliased\nraw"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-15",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 170.0, 171.0, 29.5, 22.0 ],
+					"patching_rect" : [ 101.5, 211.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "+ 1"
 				}
@@ -59,7 +72,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 171.0, 128.5, 18.0, 34.0 ],
+					"patching_rect" : [ 102.5, 168.5, 18.0, 34.0 ],
 					"size" : 2,
 					"style" : "",
 					"value" : 0
@@ -73,7 +86,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 17.0, 191.0, 70.0, 22.0 ],
+					"patching_rect" : [ 17.0, 227.0, 70.0, 22.0 ],
 					"style" : "",
 					"text" : "selector~ 2"
 				}
@@ -282,7 +295,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 105.5, 134.5, 56.0, 22.0 ],
+					"patching_rect" : [ 102.5, 94.0, 56.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -298,25 +311,12 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-7",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 98.0, 63.0, 53.0, 22.0 ],
-					"style" : "",
-					"text" : "sig~ 40."
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 17.0, 63.0, 53.0, 22.0 ],
+					"patching_rect" : [ 17.0, 37.0, 53.0, 22.0 ],
 					"style" : "",
 					"text" : "sig~ 40."
 				}
@@ -472,7 +472,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 17.0, 134.5, 56.0, 22.0 ],
+					"patching_rect" : [ 17.0, 94.0, 56.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -494,7 +494,7 @@
 					"maxclass" : "scope~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 105.5, 212.0, 50.0, 52.0 ],
+					"patching_rect" : [ 85.5, 279.0, 103.5, 105.040001 ],
 					"style" : ""
 				}
 
@@ -756,25 +756,17 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
-					"order" : 1,
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"order" : 0,
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-11", 1 ],
-					"order" : 1,
-					"source" : [ "obj-7", 0 ]
+					"order" : 2,
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"order" : 3,
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -782,7 +774,15 @@
 				"patchline" : 				{
 					"destination" : [ "obj-8", 1 ],
 					"order" : 0,
-					"source" : [ "obj-7", 0 ]
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"order" : 1,
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -796,7 +796,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "peeking.poly.maxpat",
-				"bootpath" : "~/Documents/_CODE/art_music/znibbles/znibbles-github/04-create-sounds-with-jitter",
+				"bootpath" : "~/Documents/#code/art_music/znibbles/znibbles-github/04-create-sounds-with-jitter",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
