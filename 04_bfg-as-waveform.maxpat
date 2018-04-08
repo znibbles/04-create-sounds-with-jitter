@@ -124,7 +124,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 106.0, 23.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 76.0, 59.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -205,7 +204,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 12.0, 178.5, 167.0, 35.0 ],
+					"patching_rect" : [ 12.0, 178.5, 169.0, 35.0 ],
 					"style" : "",
 					"text" : "poly~ peeking.poly.v2.maxpat 2 up 4 @steal 1"
 				}
@@ -226,6 +225,10 @@
 , 						{
 							"number" : 2,
 							"data" : [ 5, "obj-3", "toggle", "int", 1, 5, "obj-14", "flonum", "float", 9.38182, 5, "obj-13", "live.slider", "float", 9.38182, 5, "obj-19", "live.dial", "float", 181.4198, 5, "obj-27", "flonum", "float", 10.0, 5, "obj-28", "flonum", "float", 1.2, 5, "obj-36", "flonum", "float", 9.0, 5, "obj-35", "flonum", "float", 0.8 ]
+						}
+, 						{
+							"number" : 3,
+							"data" : [ 5, "obj-3", "toggle", "int", 1, 5, "obj-14", "flonum", "float", 2.457846, 5, "obj-13", "live.slider", "float", 2.457846, 5, "obj-19", "live.dial", "float", 358.19458, 5, "obj-27", "flonum", "float", 55.0, 5, "obj-28", "flonum", "float", 0.5, 5, "obj-36", "flonum", "float", 115.0, 5, "obj-35", "flonum", "float", 0.7 ]
 						}
  ],
 					"style" : ""
