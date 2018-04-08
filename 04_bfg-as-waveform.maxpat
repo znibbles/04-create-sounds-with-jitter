@@ -777,8 +777,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-13" : [ "scale", "scale", 0 ],
-			"obj-19" : [ "live.dial", "live.dial", 0 ]
+			"obj-19" : [ "live.dial", "live.dial", 0 ],
+			"obj-13" : [ "scale", "scale", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
