@@ -19,3 +19,9 @@ We have to adapt the matrix dimensions to 1024 x 1024, otherwise we're good. Let
 The `[jit.normalize]` object normalizes the matrix to cell values between 0. and 1. We can select different basis functions such as a simple sine, a sawtooth, or noises. Let's listen to a few.
 
 To do this, we need to send a `note` message to the `poly~` containing the two peeking frequencies. Remember, a note message is sent to the first non-busy voice, or a stolen one in our case. We can verify that by opening that voice.
+
+## Dealing with Artefacts
+
+One problem we face is, if we scale the image with our slider here, there are audible clicks, because the image processing is far slower than the audio sample rate. Were this an envelope calculation, we'd add a `[line~]` object in between to interpolate the values. It turns out, we can do something similar here.
+
+We will insert a `[jit.gen]` here to crossfade between 
