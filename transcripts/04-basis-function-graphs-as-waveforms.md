@@ -24,4 +24,14 @@ To do this, we need to send a `note` message to the `poly~` containing the two p
 
 One problem we face is, if we scale the image with our slider here, there are audible clicks, because the image processing is far slower than the audio sample rate. Were this an envelope calculation, we'd add a `[line~]` object in between to interpolate the values. It turns out, we can do something similar here.
 
-We will insert a `[jit.gen]` here to crossfade between 
+We will use a trick normally employed in computer vision, more precisely motion detection, to process the current with the previous image in the stream. That trick consists of adding a `[trigger l l]` object and hijack Max's right-to-left, depth-first message traversal (see Max Tutorial #5: Message Order and Debugging). We pipe the right list outlet to our wavetable matrix, and the left back to a `[jit.xfade]` object in a feedback loop, which we will discuss in a moment.
+
+Let's enable debugging and add 4 breakpoints to see what is going on: coming into the crossfader, the matrix is then passed on to the `[t l l]`. It first goes off to the wavetable, then back to the right inlet of the crossfader. That way, always the previous image is present on this right inlet. **Be careful not to mix up that ordering, otherwise your patch will blow up!**
+
+So we use this crossfade object to interpolate between successive images, providing a smooth transition and avoiding those clicks. If we add another knob here, we have another parameter to do sound design with.
+
+## Finishing Touches
+
+We provisioned our patch for 2-voice polyphony, so let's add that second voice and play around with it a little.
+
+	I hope you enjoyed this episode as much as I did and already have a ton of ideas of where to go with this. Feel free to reach out to me, I'd love to hear about it!
