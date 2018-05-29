@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 5,
+			"revision" : 4,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -38,6 +38,20 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "preset",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "preset", "int", "preset", "int" ],
+					"patching_rect" : [ 308.0, 396.0, 100.0, 40.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 270.0, 21.0, 17.0, 103.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -58,7 +72,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 105.0, 298.166656, 199.866913, 161.75 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 12.0, 132.542984, 250.0, 161.965424 ]
+					"presentation_rect" : [ 12.0, 132.542984, 275.0, 179.965424 ]
 				}
 
 			}

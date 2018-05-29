@@ -38,6 +38,20 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "preset",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "preset", "int", "preset", "int" ],
+					"patching_rect" : [ 308.0, 396.0, 100.0, 40.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 158.0, 67.0, 100.0, 17.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-9",
@@ -422,7 +436,7 @@
 					"destination" : [ "obj-47", 1 ],
 					"source" : [ "obj-38", 0 ],
 					"watchpoint_flags" : 2,
-					"watchpoint_id" : 4
+					"watchpoint_id" : 1
 				}
 
 			}
@@ -445,7 +459,7 @@
 					"destination" : [ "obj-38", 0 ],
 					"source" : [ "obj-47", 0 ],
 					"watchpoint_flags" : 2,
-					"watchpoint_id" : 2
+					"watchpoint_id" : 3
 				}
 
 			}
