@@ -1,3 +1,5 @@
+## Exploring the Frequency Domain
+
 Similar to what we did in the previous episode, we can apply graphical transformations to spectrograms, too. We take [Jean Francois Charles'](https://cycling74.com/tools/charles-spectral-tutorials) ideas on transforming spectrograms into Jitter matrices and back, and fiddle around with it. You can look up the details of the process in his impressive tutorials, because we're only interested in the graphics stuff here.
 
 I've prepared a short sample I recorded with the Korg Volca FM and saved the spectrogram as a Jitter jxf file, so we can just read it in here. Down here I have a playback section that just comprises the `jit.peek~`ing necessary to reconstruct the sound via inverse FFT, which is exactly what this `play_transformed.pfft` patch does. 

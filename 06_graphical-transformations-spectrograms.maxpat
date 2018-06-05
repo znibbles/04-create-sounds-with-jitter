@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 43.0, 82.0, 1212.0, 644.0 ],
+		"rect" : [ 34.0, 82.0, 1212.0, 644.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -52,7 +52,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 885.666687, 207.166687, 311.0, 318.999969 ],
-					"presentation_rect" : [ 885.666687, 206.166687, 0.0, 0.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -221,7 +220,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 338.0, 617.166626, 58.0, 22.0 ],
+					"patching_rect" : [ 215.0, 563.166626, 58.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.pack 2"
 				}
@@ -236,7 +235,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 298.666687, 657.833313, 281.0, 22.0 ],
+					"patching_rect" : [ 215.0, 599.833313, 281.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.matrix transformed_spectrum 2 float64 200 1024"
 				}
@@ -878,6 +877,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-92", 1 ],
+					"midpoints" : [ 65.500015, 339.0, 216.0, 339.0, 216.0, 549.0, 263.5, 549.0 ],
 					"source" : [ "obj-9", 1 ]
 				}
 
